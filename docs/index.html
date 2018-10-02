@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
         <link rel="stylesheet" href="index.css">
         <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-        <script defer src="../js/app.js"></script>
+        <script defer src="js/app.js"></script>
     </head>
     <body>
         <section id="app" class="hero is-fullheight">
@@ -58,6 +58,7 @@
                                     </div>
                                     <div class="level-right buttons">
                                         <a href="templates/login.html" class="button is-success is-outlined">Demo</a>
+                                        <button class="button is-link is-outlined" @click.prevent="download('login')">Download</button>
                                     </div>
                                 </div>
                             </article>
