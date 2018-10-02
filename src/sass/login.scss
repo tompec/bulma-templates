@@ -1,0 +1,17 @@
+.input {
+    background-color: transparent;
+    box-shadow: none;
+    color: #ffffff;
+}
+.control.has-icons-left .input:focus ~ .icon {
+    color: #ffffff;
+}
+.checkbox {
+    color: rgba(10, 10, 10, 0.4);
+}
+form {
+    margin-bottom: 4rem;
+}
+.buttons {
+    justify-content: center;
+}

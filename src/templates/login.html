@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Free Login Bulma Templates</title>
+        <meta name="description" content="Free Login Template made with Bulma.">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+        <link rel="stylesheet" href="login.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    </head>
+    <body>
+        <section class="hero is-info is-fullheight is-bold">
+            <div class="hero-head">
+                <div class="container menu">
+                    <nav class="navbar is-transparent">
+                        <div class="navbar-brand">
+                            <a class="navbar-item has-text-weight-bold" href="../index.html" title="Back to Home">
+                                <span class="icon"><i class="fas fa-long-arrow-alt-left"></i></span>
+                                <span>Back to Home</span>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="hero-body">
+                <div class="container">
+                    <div class="column is-4-desktop is-offset-4-desktop is-6-tablet is-offset-3-tablet">
+                        <h1 class="title is-2 has-text-weight-light has-text-centered">Login</h1>
+                        <p class="subtitle has-text-centered">Welcome back!</p>
+                        <form>
+                            <div class="field">
+                                <label class="label is-hidden" for="email">Email</label>
+                                <p class="control has-icons-left">
+                                    <input
+                                        id="email"
+                                        name="email"
+                                        type="email"
+                                        class="input is-large"
+                                        required
+                                        autofocus
+                                        placeholder="Email"
+                                        autocomplete="email"
+                                    >
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                </p>
+                            </div>
+
+                            <div class="field">
+                                <label class="label is-hidden" for="password">Password</label>
+                                <p class="control has-icons-left">
+                                    <input
+                                        id="password"
+                                        name="password"
+                                        type="password"
+                                        class="input is-large"
+                                        required
+                                        placeholder="Password"
+                                        autocomplete="current-password"
+                                    >
+                                    <span class="icon is-small is-left">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </p>
+                            </div>
+
+                            <div class="field">
+                                <p class="control">
+                                    <label class="checkbox">
+                                        <input type="checkbox" name="remember">
+                                        Remember me
+                                    </label>
+                                </p>
+                            </div>
+
+                            <div class="field">
+                                <p class="control has-text-centered">
+                                    <button class="button is-white is-medium is-fullwidth" type="submit">Sign In</button>
+                                </p>
+                            </div>
+                        </form>
+
+                        <div class="buttons">
+                            <a href="#" class="button is-light is-rounded is-outlined">Create account</a>
+                            <a href="#" class="button is-light is-rounded is-outlined">Forgot Password?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
