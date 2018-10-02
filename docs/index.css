@@ -1,0 +1,21 @@
+.hero-head {
+  padding: 0 1.5rem;
+  background-color: whitesmoke;
+}
+
+.hero-body {
+  background-color: whitesmoke;
+}
+
+.tile.is-ancestor {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 6px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(51, 51, 79, 0.07);
+          box-shadow: 0 2px 5px 0 rgba(51, 51, 79, 0.07);
+  overflow: hidden;
+}
+
