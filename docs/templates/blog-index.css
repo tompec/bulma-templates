@@ -12144,28 +12144,3 @@ label.panel-block:hover {
     Template starts here
 */
 
-.input {
-  background-color: transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  color: #ffffff;
-}
-
-.control.has-icons-left .input:focus ~ .icon {
-  color: #ffffff;
-}
-
-.checkbox {
-  color: rgba(10, 10, 10, 0.4);
-}
-
-form {
-  margin-bottom: 4rem;
-}
-
-.buttons {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-

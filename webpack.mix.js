@@ -17,4 +17,5 @@ mix.js('src/js/app.js', 'docs/js/')
     .sass('src/sass/index.scss', 'docs/')
     .sass('src/sass/login.scss', 'docs/templates/')
     .sass('src/sass/blog.scss', 'docs/templates/')
+    .sass('src/sass/blog-index.scss', 'docs/templates/')
     .copyDirectory('src/img', 'docs/img');

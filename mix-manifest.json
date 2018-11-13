@@ -3,5 +3,6 @@
     "/docs/index.css": "/docs/index.css",
     "/docs/templates/login.css": "/docs/templates/login.css",
     "/docs/templates/blog.css": "/docs/templates/blog.css",
+    "/docs/templates/blog-index.css": "/docs/templates/blog-index.css",
     "/docs/index.html": "/docs/index.html"
 }
